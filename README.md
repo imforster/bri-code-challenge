@@ -15,12 +15,13 @@ To run program requires the following be installed on your local system.
 * Java 8 (or higher) (https://www.oracle.com/java/technologies/jdk8-downloads.html or equivalent)
 * Maven 3.3 (or higher) (https://maven.apache.org/download.cgi)
 
-# Build and Run Program
+# Build, Test and Run Program
 ````
 cd generate-fib/
 mvn install
 mvn exec:java -Dexec.mainClass="com.brighterion.generate_fib.FibGenerator"
 ````
+** Unit tests are executed during mvn install step.
 
 ## Sample output
 
