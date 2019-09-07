@@ -2,9 +2,9 @@
 
 # Build and Run Program
 ````
-	cd generate-fib/
-	mvn install
- mvn exec:java -Dexec.mainClass="com.brighterion.generate_fib.FibGenerator"
+cd generate-fib/
+mvn install
+mvn exec:java -Dexec.mainClass="com.brighterion.generate_fib.FibGenerator"
 ````
 
 ## Sample output
