@@ -1,5 +1,14 @@
 # bri-code-challenge
 
+## Coding Exercise:
+* Using recursion or iteration, write a program that prints the Fibonnaci sequence of numbers based on a user’s input. For example, if a user enters 100, then the expected output should be the first 100 numbers within the Fibonnaci sequence.
+* Use any programming language you are comfortable with: C, C++,C#, Java (preferred), JavaScript, Python, etc.
+Include any instructions needed to run the code so that it prints the Fibonnaci sequence of numbers specified by the user.
+* Include the output of the run (i.e. the Fibonnaci sequence).
+* Expected output is: 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 etc…
+* Write the appropriate unit test case(s).
+* Include comments in the code to explain your logic and any appropriate documentation.
+
 # Build and Run Program
 ````
 cd generate-fib/
