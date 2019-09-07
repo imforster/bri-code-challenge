@@ -39,5 +39,5 @@ Please specify number of fibonacci numbers to generate (or <=0 to quit):
 
 Please specify number of fibonacci numbers to generate (or <=0 to quit):
 0
-````
 bye.
+````
