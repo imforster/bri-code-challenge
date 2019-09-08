@@ -77,7 +77,7 @@ public class FibGenerator {
 				} else {
 					System.out.print(fibGen.fib(0));
 					for (int i = 1; i < num; i++) {
-						System.out.print("," + fibGen.fib(i));
+						System.out.print(" " + fibGen.fib(i));
 
 					}
 					System.out.println("\n\n---------------------------------------------\n");
