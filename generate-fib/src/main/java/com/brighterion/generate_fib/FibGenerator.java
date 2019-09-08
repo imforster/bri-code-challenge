@@ -32,8 +32,9 @@ public class FibGenerator {
 	 * @return
 	 */
 	public BigInteger fib(int n) {
-		if (n < 0)
+		if (n < 0) {
 			return BigInteger.ZERO;
+		}
 		BigInteger[] mem = new BigInteger[n + 2]; // add two to avoid index error where n is 0.
 		Arrays.fill(mem, BigInteger.ONE.negate());
 		mem[0] = BigInteger.ZERO;
