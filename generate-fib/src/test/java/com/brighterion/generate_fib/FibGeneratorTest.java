@@ -7,6 +7,10 @@ import junit.framework.TestCase;
 public class FibGeneratorTest extends TestCase {
 	
 	FibGenerator fibGen = new FibGenerator();
+	
+	public void testNegativeCase() {
+		assertTrue(fibGen.fib(-1).equals(BigInteger.ZERO));
+	}
 
 	public void testZeroCase() {
 		assertTrue(fibGen.fib(0).equals(BigInteger.ZERO));
